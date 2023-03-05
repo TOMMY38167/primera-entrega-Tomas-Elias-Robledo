@@ -120,3 +120,15 @@ nav i {
  box-shadow:-7px -7px #CBDAD5;
 
 }
+/*conocimientos*/ 
+.imgdiv .xxl {
+    width: 80%;
+}
+.imgdiv i {
+    font-size: 12rem;
+    color: #89A7B1;
+
+}
+.vector {
+    justify-content: space-evenly;
+}
