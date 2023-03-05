@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #566981;
+  font-family: "Roboto Serif", serif;
+}
+/*index header*/
+.HeaderIndex {
+  width: 100vw;
+  text-align: center;
+}
+.HeaderIndex h1 {
+  margin-top: 2%;
+  font-size: 3rem;
+  color: white;
+}
+.HeaderIndex .ImgPerfil {
+  width: 200px;
+  height: 200px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.HeaderIndex p {
+    color: white;
+}
+/* vectores*/
+.ContenedorVectores {
+  text-align: center;
+  margin-top: 2%;
+  background-color: #3a415a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ContenedorVectores .Tarjeta {
+    width: 350px;
+    height: 350px;
+    background-color: #34344E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    box-shadow:-7px -7px #89A7B1, -14px -14px #CBDAD5;
+    flex-direction: column;
+    }
+    .ContenedorVectores .Tarjeta i {
+        font-size: 15rem;
+        color: #CBDAD5;
+    }
+   
+    
+.ContenedorVectores .Tarjeta p {
+    font-size: 1.7rem;
+  color: white;
+}
+/*trabajos*/ 
+
+nav {
+    width: 100vw;
+   justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    background-color: #3A415A;
+}
+nav .ImgPerfil {
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+}
+/*contenido imagen*/ 
+.imgdiv {
+    width: 100vw;
+    display: flex;
+    background-color: #34344E;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.imgdiv img {
+    width: 500px;
+    height: auto;
+    
+   
+}
+.imgdiv .tarjeta {
+ width: 60%;
+ height: 100%;
+ background-color: #3E4560;
+ color: white;
+ margin-top: 3%;
+ margin-bottom: 3%;
+ padding: 3%;
+ box-shadow:-7px -7px #CBDAD5;
+
+}
