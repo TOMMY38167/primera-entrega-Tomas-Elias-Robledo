@@ -8,6 +8,7 @@ body {
   height: 100vh;
   background-color: #566981;
   font-family: "Roboto Serif", serif;
+  overflow-x: hidden;
 }
 /*index header*/
 .HeaderIndex {
@@ -62,19 +63,28 @@ body {
 }
 /*trabajos*/ 
 
-nav {
+nav  {
     width: 100vw;
    justify-content: flex-start;
     align-items: center;
     display: flex;
     background-color: #3A415A;
 }
-nav .ImgPerfil {
-    width: 50px;
-    height: 50px;
+nav i {
+  font-size: 5rem;
     margin-top: 5%;
+    color: #CBDAD5;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 15%;
 }
 /*contenido imagen*/ 
+.titulo {
+    text-align: center;
+    width: 100vw;
+    margin-top: 3%;
+    color: white;
+}
 .imgdiv {
     width: 100vw;
     display: flex;
@@ -87,10 +97,16 @@ nav .ImgPerfil {
     padding-bottom: 2%;
     
 }
+.imgdiv .borde {
+    border-width: 7px;
+    border-style: solid;
+    border-color: #252537;
+}
 .imgdiv img {
     width: 500px;
     height: auto;
-    
+    display: block;
+
    
 }
 .imgdiv .tarjeta {
