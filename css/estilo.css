@@ -7,7 +7,7 @@ body {
   /* 100vw no tiene en cuenta la barra de scroll */
   /* este calculo le resta esa diferencia */
   width: calc(100vw - (100vw - 100%));
-  height: 100vh;
+ 
   background-color: #566981;
   font-family: "Roboto Serif", serif;
 }
@@ -19,17 +19,18 @@ body {
 }
 .HeaderIndex h1 {
   margin-top: 2%;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: white;
 }
 .HeaderIndex .ImgPerfil {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .HeaderIndex p {
-    color: white;
+  color: white;
+  font-size: 1rem;
 }
 /* vectores*/
 .ContenedorVectores {
@@ -44,95 +45,144 @@ body {
   align-items: center;
 }
 .ContenedorVectores .Tarjeta {
-    width: 350px;
-    height: 350px;
-    background-color: #34344E;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    box-shadow:-7px -7px #89A7B1, -14px -14px #CBDAD5;
-    flex-direction: column;
-    }
-    .ContenedorVectores .Tarjeta i {
-        font-size: 15rem;
-        color: #CBDAD5;
-    }
-   
-    
+  width: 200px;
+  height: 200px;
+  background-color: #34344e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  box-shadow: -7px -7px #89a7b1, -14px -14px #cbdad5;
+  flex-direction: column;
+}
+.ContenedorVectores .Tarjeta i {
+  font-size: 7rem;
+  color: #cbdad5;
+}
+a i:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
 .ContenedorVectores .Tarjeta p {
-    font-size: 1.7rem;
+  font-size: 1rem;
   color: white;
 }
-/*trabajos*/ 
+/*trabajos*/
 
-nav  {
-    width: 100%;
-   justify-content: flex-start;
-    align-items: center;
-    display: flex;
-    background-color: #3A415A;
+nav {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  background-color: #3a415a;
 }
 nav i {
   font-size: 5rem;
-    margin-top: 5%;
-    color: #CBDAD5;
-    padding-top: 10%;
-    padding-bottom: 20%;
-    padding-left: 15%;
+  margin-top: 5%;
+  color: #cbdad5;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-left: 15%;
 }
-/*contenido imagen*/ 
+/*contenido imagen*/
 .titulo {
-    text-align: center;
-    width: 100%;
-    margin-top: 3%;
-    color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
 }
 .imgdiv {
-    width: 100%;
-    display: flex;
-    background-color: #34344E;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    
+  width: 100%;
+  display: flex;
+  background-color: #34344e;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .imgdiv .borde {
-    border-width: 7px;
-    border-style: solid;
-    border-color: #252537;
+  border-width: 7px;
+  border-style: solid;
+  border-color: #252537;
 }
 .imgdiv img {
-    width: 500px;
-    height: auto;
-    display: block;
-
-   
+  width: 600px;
+  height: auto;
+  display: block;
 }
 .imgdiv .tarjeta {
- width: 60%;
- height: 100%;
- background-color: #3E4560;
- color: white;
- margin-top: 3%;
- margin-bottom: 3%;
- padding: 3%;
- box-shadow:-7px -7px #CBDAD5;
-
+  width: 50%;
+  height: 100%;
+  background-color: #3e4560;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1.5%;
+  box-shadow: -7px -7px #cbdad5;
 }
-/*conocimientos*/ 
+/*conocimientos*/
 .imgdiv .xxl {
-    width: 80%;
+  width: 80%;
 }
 .imgdiv i {
-    font-size: 12rem;
-    color: #89A7B1;
-
+  font-size: 12rem;
+  color: #89a7b1;
 }
 .vector {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
+/*objetivos*/
+
+.objetivostarjeta .tarjeta {
+  height: 350px;
+  width: 90%;
+  background-color: #34344e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: -7px -7px #89a7b1, -14px -14px #cbdad5;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.objetivostarjeta {
+  display: flex;
+  justify-content: center;
+}
+/*footer*/
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3a415a;
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer .FooterDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+footer i {
+  font-size: 2rem;
+  padding-right: 10%;
+  color: white;
+}
+footer .FooterDiv a i :hover {
+  transform: scale(1);
+  transition: 0.7;
+  margin-left: 3%;
+}
+footer p {
+  padding-left: 10%;
+}
+
