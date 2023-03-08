@@ -60,6 +60,10 @@ body {
   font-size: 7rem;
   color: #cbdad5;
 }
+a h2:hover {
+  color: #34344E;
+  transition: 0.1s;
+}
 a i:hover {
   transform: scale(1.1);
   transition: 0.1s;
@@ -72,7 +76,9 @@ a i:hover {
 
 nav {
   width: 100%;
+  height: 100px;
   background-color: #3a415a;
+  position: sticky;
 }
 nav .headerUl {
   display: inline-block;
@@ -80,20 +86,19 @@ nav .headerUl {
 }
 nav .headerUl li {
   display: inline-block;
-  padding-left: 40px;
+  padding-left: 30px;
 }
-nav i {
-  font-size: 5rem;
+nav h2 {
+  font-size: 1rem;
   margin-top: 5%;
   color: #cbdad5;
   padding-top: 10%;
   padding-bottom: 20%;
-
+  text-decoration: underline;
 }
 nav .homeLi {
-padding-right: 765px;
-position: relative;
-
+  padding-right: 765px;
+  position: static;
 }
 /*contenido imagen*/
 .titulo {
@@ -146,7 +151,7 @@ position: relative;
 }
 /*objetivos*/
 
-.objetivostarjeta .tarjeta {
+.contenedorTarjeta .tarjeta {
   height: 350px;
   width: 90%;
   background-color: #34344e;
@@ -162,7 +167,7 @@ position: relative;
   color: white;
   text-align: center;
 }
-.objetivostarjeta {
+.contenedorTarjeta {
   display: flex;
   justify-content: center;
 }
@@ -194,4 +199,10 @@ footer .FooterDiv a i :hover {
 }
 footer p {
   padding-left: 10%;
+}
+/*sobre mi*/
+.contenedorTarjeta .Lista {
+  align-items: start;
+  text-align: start;
+  font-size: 2rem;
 }
